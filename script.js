@@ -26,23 +26,48 @@ let songs=[
         singer:"Vishal Mishra"
     },
     {
+        name:"Beete Lamhein",
+        path:"./songs/Beete Lamhein .mp3",
+        image:"./images/image4.jpeg",
+        singer:"KK"
+    },
+    {
         name:"Tera Chehra",
-        path:"./songs/Tera Chehra.mp3",
+        path:"./songs/Tera Chehra .mp3",
         image:"./images/image3.jpeg",
         singer:"Arjit Singh"
     },
-    {
-        name:"Beete Lamhein",
-        path:"./songs/Beete Lamhein.mp3",
-        image:"./images/image4.jpeg",
-        singer:"Krishnakumar Kunnath (KK)"
-    },
+    
     {
         name:"Buhe Vich",
         path:"./songs/Buhe Vich.mp3",
         image:"./images/image5.jpg",
         singer:"Neha Kakkar"
-    }
+    },
+    {
+        name:"Kabhi Tumhe",
+        path:"./songs/Kabhi Tumhe.mp3",
+        image:"./images/image6.jpeg",
+        singer:"Darshan Raval"
+    },
+    {
+        name:"Mere Nishan",
+        path:"./songs/Mere Nishan.mp3",
+        image:"./images/image7.jpeg",
+        singer:"Darshan Raval"
+    },
+    {
+        name:"Aasan Nahin Yahan",
+        path:"./songs/Aasan Nahin Yahan.mp3",
+        image:"./images/image8.jpeg",
+        singer:"Arjit Singh"
+    },
+    {
+        name:"Yeh Aaina",
+        path:"./songs/Yeh Aaina.mp3",
+        image:"./images/image9.jpeg",
+        singer:"Shreya Ghoshal"
+    },
 ]
 function loadTrack(index){
 track.src=songs[index].path;
